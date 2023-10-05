@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBvMS6aTAjnnzQry35jxTu_V-aCQFLMBYs",
-  authDomain: "news-resources-auth.firebaseapp.com",
-  projectId: "news-resources-auth",
-  storageBucket: "news-resources-auth.appspot.com",
-  messagingSenderId: "123585738654",
-  appId: "1:123585738654:web:5422a5254d80130bdec88f"
+  apiKey:import.meta.env.VITE_APIKEY ,
+  authDomain:import.meta.env.VITE_AUTHDOMAIN ,
+  projectId:import.meta.env.VITE_PROJECTID ,
+  storageBucket:import.meta.env.VITE_STORAGEBUCKET ,
+  messagingSenderId:import.meta.env.VITE_MESSAGINGSENDERID ,
+  appId:import.meta.env.VITE_APPID ,
 };
 
 // Initialize Firebase

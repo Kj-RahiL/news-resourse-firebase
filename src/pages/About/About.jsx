@@ -1,9 +1,10 @@
-import React from 'react';
+g
+import Navbar from '../Shared/Navbar';
 
 const About = () => {
     return (
         <div>
-            <h2>about</h2>
+            <Navbar></Navbar>
         </div>
     );
 };
