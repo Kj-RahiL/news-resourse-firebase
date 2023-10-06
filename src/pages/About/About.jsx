@@ -1,4 +1,4 @@
-g
+
 import Navbar from '../Shared/Navbar';
 
 const About = () => {
